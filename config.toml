@@ -1,4 +1,4 @@
-baseURL = "localhost/"
+baseURL = "https://stereo343.github.io/hugo-adelina/"
 languageCode = "fr-FR"
 title = "JAMstack"
 theme = "ga-hugo-theme"
