@@ -1,0 +1,23 @@
+footer p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 0 1em;
+	color: #FFF;
+	background-color: #171923;
+}
+
+footer p:first-child {
+	padding-top: 1em;
+}
+
+footer p:last-child {
+	padding-bottom: 1em;
+}
+
+footer img {
+	max-height: 50px;
+	margin: 0.5em;
+}

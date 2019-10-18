@@ -1,0 +1,13 @@
+baseURL = "localhost/"
+languageCode = "fr-FR"
+title = "JAMstack"
+theme = "ga-hugo-theme"
+
+# The site's parameters
+[params]
+  home = "Home"
+  [menu]
+    [[menu.header]]
+      weight = 2
+      name = "Adelina"
+      url = "adelina"

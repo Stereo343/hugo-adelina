@@ -1,0 +1,28 @@
+<header>
+    <nav>
+        <div class="container">
+            <div class="nav-header">
+                <a class="brand" href="{{ .Site.BaseURL }}">
+                    <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
+                </a>
+                <button type="button" class="nav-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>  
+            <div class="collapse nav-collapse" id="navigation">
+                <ul>
+                    <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
+                    {{ range .Site.Menus.header }}
+                    <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>{{ .Params.headlineTitle }}</h1>
+    </div>
+</header>

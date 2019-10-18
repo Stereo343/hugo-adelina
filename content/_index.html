@@ -1,0 +1,76 @@
+---
+title: "Découverte Jamstack / Hugo"
+headlineTitle: "Veille technologique sur la JAMStack"
+date: 2019-10-17T14:50:18+02:00
+draft: false
+---
+<div>
+    <h2>Qu'est-ce que le JAMStack ?</h2>
+    <p>Le terme <b>Jamstack</b> désigne l'ensemble des technologies Javascript, APIs et Markup ainsi qu'une manière de développer des sites web statiques sans base de données.</p>
+    <ul>
+        <li>
+            <figure>
+                <a href="/img/site-classique.png" target="_blank"><img src="/img/site-classique.png" /></a>
+                <figcaption>Schéma de fonctionnement d'un site classique</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <a href="/img/site-jam.png" target="_blank"><img src="/img/site-jam.png" /></a>
+                <figcaption>Schéma de fonctionnement d'un site en JAM</figcaption>
+            </figure>
+        </li>
+    </ul>
+</div>
+<div>
+    <h2>Que signifie l'acronyme JAM ?</h2>
+    <ul>
+        <li>
+            <figure>
+                <img src="/img/letter-j.svg" />
+                <figcaption>Javascript</figcaption>
+            </figure>
+            <p>Utilisation du langage JS "côté front" afin de dynamiser la page sans l'aide de langage "côté serveur" comme PHP, Python, etc...</p>
+        </li>
+        <li>
+            <figure>
+                <img src="/img/letter-a.svg" />
+                <figcaption>API</figcaption>
+            </figure>
+            <p>Les processus de base de données côté serveur sont déplacés sur des API réutilisables accessible en JavaScript.</p>
+        </li>
+        <li>
+            <figure>
+                <img src="/img/letter-m.svg" />
+                <figcaption>Markup</figcaption>
+            </figure>
+            <p>Utilisation de templating à l'aide de Markup (ou de Markdown).</p>
+        </li>
+    </ul>
+</div>
+<div>
+    <h2>Avantages de la technologie JAMstack</h2>
+    <ol>
+        <li>
+            <p><b>Performance ⚡️</b></p>
+            <p>Cette technologie permet d'améliorer grandement les performances d'un site web. En effet, les pages du site sont générées de faon statiques afin de les servir au visiteur de manière très rapide. Il n'y a aucun traitement côté serveur d'effectué lorsqu'un client demande une page. De plus, il est possible d'utiliser un CDN (Content Devlivery Network ou Réseau de livraison de contenu) qui permet de transmettre nos fichiers aux clients très rapidement.</p>
+        </li>
+        <li>
+            <p><b>Sécurité 🔐</b></p>
+            <p>Le site web est beaucoup plus sécurisé avec l'utilisation de ces technologies. En effet, puisque les pages du site sont statiques (HTML), il est donc plus difficile de réaliser des injections XSS.</p>
+        </li>
+        <li>
+            <p><b>SEO 📊</b></p>
+            <p>Avec des outils comme Hugo, Gatsby.js... nous obtenons de jolies URL sans avoir besoin d'effectuer de la réecriture côté serveur. Le déploiement est très facile avec des outils comme Netlify.</p>
+        </li>
+        <li>
+            <p><b>Déploiement 🚀</h3></b></p>
+            <p>Le déploiement d'un site sous Hugo est très facile pour les développeurs avec des outils comme Netlify, Jeit ou GitHub Pages.</p>
+        </li>
+    </ol>
+</div>
+<div>
+    <h2>CMS Wordpress vs Hugo, lequel est le meilleur ?</h2>
+    <p>L'utilisation d'un CMS comme WordPress peut avoir plusieurs avantages. Tout d'abord, une fois le site déployé, une personne peut facilement en gérer son contenu. En effet, son interface d'administration est un outil très utile qui ne nécessite pas de s'y connaître en code pour pouvoir ajouter de nouvelles pages ou de nouveaux articles. De plus, il est possible d'étendre facilement les fonctionnalités de son site grâce aux différents plugins qui existent. Wordpress est cependant plutôt gourmand en ressources: Il nécessite un système de gestion de bases de données relationnelles et php. Toute demande de données nécessite des requêtes SQL pour être obtenue, et un grand nombre de requêtes sont réalisées pour obtenir une unique page.</p>
+    <p>De son côté, Hugo nécessite un peu plus de connaissances pour pouvoir être utilisé par un utilisateur commun: Tout d'abord, Hugo nécessite d'être redéployé à chaque ajout d'article ou de page par l'utilisateur. De plus, Hugo ne fonctionne pas avec une interface WYSIWYG (Ce que tu vois est ce que tu obtiens). Les différentes pages et articles sont générés avec du markup/markdown, ce qui complexifie le processus pour l'utilisateur lambda. Il est donc plus difficile à prendre en main qu'un site sous Wordpress. Hugo se démarque cependant par son côté très éco-responsable : Il nécessite bien moins de requêtes qu'un site wordpress (chaque page est précompilée, et le serveur n'a pas à récupérer de datas pour la génération de la page) et nécessite bien moins de ressources. Hugo est donc une véritable pépite entre les mains d'un développeur pour réaliser de petits sites statiques ou pour réaliser des blog.</p>
+</div>
