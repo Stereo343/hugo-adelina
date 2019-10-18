@@ -3,21 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost/adelina/</loc>
+    <loc>https://stereo343.github.io/hugo-adelina/adelina/</loc>
     <lastmod>2019-10-17T14:50:22+02:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/</loc>
+    <loc>https://stereo343.github.io/hugo-adelina/</loc>
     <lastmod>2019-10-17T14:50:18+02:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/categories/</loc>
+    <loc>https://stereo343.github.io/hugo-adelina/categories/</loc>
   </url>
   
   <url>
-    <loc>localhost/tags/</loc>
+    <loc>https://stereo343.github.io/hugo-adelina/tags/</loc>
   </url>
   
 </urlset>
